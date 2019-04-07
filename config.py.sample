@@ -1,0 +1,12 @@
+from datetime import date
+
+db = {'host': 'localhost',
+		'port':'5432',
+		'user': 'postgres',
+		'pass': 'postgres',
+		'database': 'postgres'}
+
+start_date = date(2019, 1, 1)
+end_date = date(2019, 4, 5)
+
+max_rows_import = 555
